@@ -1,5 +1,5 @@
 ##fungsi input
-def input_matriks_persegi():
+def input_matriks():
     print("=== Input Matriks Persegi ===")
     while True:
         try:
@@ -31,7 +31,7 @@ def input_matriks_persegi():
 ##main Function
 def main():
     #input matriks
-    matriks, n = input_matriks_persegi()
+    matriks, n = input_matriks()
     
     #Input Skalar
     print("\n=== Input Skalar ===")
